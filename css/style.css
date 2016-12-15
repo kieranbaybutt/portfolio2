@@ -1,0 +1,1095 @@
+body {
+  margin: 0;
+  background-color: #101010;
+  font-family: "Maison Neue Bold", Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.white {
+  color: white;
+}
+
+@font-face {
+  font-family: 'Maison Neue Bold';
+  src: url("../fonts/MaisonNeueWEB-Bold.woff"), url("../fonts/MaisonNeueWEB-Bold.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Book';
+  src: url("../fonts/MaisonNeueWEB-Book.woff"), url("../fonts/MaisonNeueWEB-Book.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  color: rgba(0,0,0,0.9);
+  font-family: "Maison Neue Book", Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 170px;
+  margin: 0;
+  color: white;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-size: 100px;
+  color: black; 
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 16px;
+  color: black; 
+  font-weight: 500;
+}
+
+h4 {
+  color: rgba(255,255,255,0.2);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+h5 {
+  font-size: 12px;
+  color: white; 
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  color: black;
+}
+
+
+.hideme {
+    opacity:0;
+    padding-top: 60px;
+}
+
+.section-number {
+  font-size: 64px;
+  color: rgba(0,0,0,0.05);
+  position: absolute;
+  z-index: 100;
+  margin: -12px 0 0 -30px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+/* ==== HEADER ==== */
+
+header {
+  height: 80px;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+header h4 {
+    transition: 0.1s ease-out;
+}
+
+.black-text:hover {
+  color: black;
+}
+
+header h4:hover {
+  color: white;
+}
+
+.logo {
+  height: 39px;
+  width: 100px;
+  background-image: url("../img/logo2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 23px;
+  display: inline-block;
+}
+
+.logo1 {
+  height: 35px;
+  width: 100px;
+  background-image: url("../img/logo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 23px;
+  display: inline-block;
+}
+
+header .contact-nav {
+  margin-top: 40px;
+  display: inline-block;
+}
+
+header .contact-nav {
+  float: right;
+}
+
+.contact-nav {
+  padding-left: 30px;
+}
+
+
+#hero {
+  height: 100vh;
+  width: 1280px;
+  /* background-color: rgba(0,0,0,0.6); */
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  bottom: 35%;
+  position: absolute;
+  overflow: hidden;
+  margin-left: 143px;
+}
+
+.interactive {
+  margin-left: 130px;
+  margin-bottom: -50px;
+}
+
+.designer {
+  margin-top: -20px
+}
+
+.interactive-overflow {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.intro {
+  bottom: 32%;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  overflow: hidden;
+  margin-left: 155px;
+}
+
+
+.scroll {
+  bottom: 8%;
+  position: absolute;
+  right: 0;
+}
+
+.arrow {
+  bottom: 6%;
+  position: absolute;
+  right: 0;
+  height: 11px;
+  width: 9px;
+  background-image: url("../img/arrow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.scroll:hover .arrow {
+  bottom: 0%;
+}
+
+
+
+
+/* ==== PROJECTS SECTION ==== */
+
+.project-wrapper {
+  width: 100%;
+  background-color: white;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+#projects {
+  width: 1280px;
+  margin: 0 auto;
+  /* background-color: white; */
+  margin-top: 0;
+}
+
+#projects:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.project-genre {
+  color: rgba(0,0,0,0.3);
+  font-size: 14px;
+  margin: 0;
+  font-family: "Maison Neue Book", Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.section-header h3 {
+  display: inline-block;
+}
+
+
+.seperator {
+  height: 1px;
+  width: 1190px;
+  margin-top: 26px;
+  display: inline-block;
+  background-color: white;
+  float: right;
+}
+
+.project-image {
+  width: 480px;
+  height: 330px;
+  background-color: grey;
+  position: absolute;
+  margin-top: -120px;
+  margin-left: -50px;
+  opacity: 0;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+
+.project-title {
+  margin: 0;
+  text-decoration: none;
+  border-bottom: 14px hidden;    
+  max-width: 0px;
+  transition: 0.3s ease-out;
+  white-space: nowrap;
+  display: inline-block;
+  margin-left: -4px;
+  position: relative;
+  background-color: black;
+}
+
+.project {
+  width:587px;
+  display: block;
+  margin-top: 128px;
+  float: left;
+}
+
+.lowercase {
+  text-transform: capitalize;
+}
+
+.left {
+  margin-right: 50px;
+}
+
+.right {
+  margin-left: 50px;
+}
+
+.middle {
+  margin-top: 120px;
+}
+
+.underline:hover {
+    border-bottom: 10px solid;
+    width: 100%;
+}
+
+
+
+
+/* ==== PROFILE SECTION ==== */
+
+
+.profile-wrapper {
+  width: 100%;
+  background-color: #F9F9F9;
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 180px;
+  padding-top: 200px;
+}
+
+#profile {
+  width: 1280px;
+  margin: 0 auto;
+  /* background-color: grey; */
+  margin-top: 0;
+}
+
+.experience, .education {
+  margin-top: -18px;
+  display: inline-block;
+  width: 200px;
+}
+
+.experience p, .education p {
+  font-size: 14px;
+  color: rgba(0,0,0,0.3);
+}
+
+.experience h6, .education h6 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: -15px;
+}
+
+.right-margin {
+  margin-right: 50px;
+}
+
+.paragraphs {
+  display: inline-block;
+  float: right;
+  width: 580px;
+  margin-top: 88px;
+}
+
+.quick-intro {
+  display: inline-block;
+  width: 569px;
+  margin-top: 30px;
+}
+
+.profile-paragraph {
+  float: right;
+}
+
+.profile-paragraph a {
+  text-decoration: underline;
+}
+
+
+
+/* ==== CONTACT SECTION ==== */
+
+.contact-wrapper {
+  width: 100%;
+  background-color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-top: 0;
+}
+
+#contact {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.contact-intro {
+  width: 529px;
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: -2px;
+}
+
+.contact-intro h3 {
+  font-size: 64px;
+}
+
+.contact-method {
+  display: inline-block;
+  width: 280px;
+  margin-bottom: -20px;
+}
+
+.contact-method p {
+  color: rgba(0,0,0,0.3);
+}
+
+.contact-method h6 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: -15px;
+}
+
+.contact-options {
+  display: inline-block;
+  width: 580px;
+  float: right;
+  margin-top: 80px;
+}
+
+.block {
+  display: block;
+}
+
+
+/* ==== CASE STUDY PAGE ==== */
+
+
+
+.case-title {
+  display: inline;
+  text-align: center;
+  width: 800px;
+}
+
+.black-text {
+  color: black;
+}
+
+.line1 {
+  padding-top: 150px;
+  margin-left: -90px;
+}
+
+.line2 {
+  padding-left:110px;
+}
+
+.case-title h1 {
+  font-size: 100px;
+  color: black;
+}
+
+.overflow {
+  overflow: hidden;
+  margin-bottom: -20px;
+}
+
+.project-details {
+  max-width: 800px;
+  padding-top: 200px;
+  margin: 0 auto;
+}
+
+.project-info {
+  width: 29%;
+  display: inline-block;
+}
+
+.project-info h6 {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.3);
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.project-info h5 {
+  font-size: 14px;
+  line-height: 14px;
+  color: black;
+  margin: 0;
+}
+
+.client, .role, .when {
+  margin-bottom: 15px;
+}
+
+.project-description {
+  width: 70%;
+  display: inline-block;
+}
+
+.project-description p {
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  margin-top: -10px;
+}
+
+.image-stream {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.image-stream-900 {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.image-test {
+  margin-bottom: 100px;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.05);
+  box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.05);
+}
+
+.image-no-shadow {
+  margin-bottom: 100px;
+}
+
+.image-app {
+  margin-bottom: 100px;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0);
+  box-shadow: 0px 5px 30px 0px rgba(0,0,0,0);
+}
+
+#hero-two {
+  width: 1280px;
+  /* background-color: rgba(0,0,0,0.6); */
+  margin: 0 auto;
+  position: relative;
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.more-projects-wrapper {
+  background-color: #F9F9F9;
+}
+
+.more-projects {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.next-project {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: 0.3s ease-out;
+  max-width: 0px;
+  background-color: black;
+}
+
+.more-projects .section-header {
+  color: white;
+  padding-bottom: 0px;
+}
+
+.more-projects h2 {
+  font-size: 72px;
+}
+
+.footer-wrapper {
+  background-color: black;
+}
+
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.next-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: 0.3s ease-out;
+  max-width: 0px;
+  background-color: black;
+}
+
+.footer h2 {
+  font-size: 72px;
+}
+
+/* ==== BREAKPOINTS ==== */
+
+@media screen and (max-width: 1410px) {
+  #hero, #projects, #profile, #contact, #hero-two {
+    width: 90%;
+  }
+  header {
+    width: 100%;
+  }
+  .project, .quick-intro, .paragraphs, .contact-intro, .contact-options {
+    width: 44%;
+  }
+  .left {
+    margin-right: 5%;
+  }
+  .right {
+    margin-left: 5%;
+  }
+  .right-margin {
+    margin-right: 30px;
+  }
+  .header {
+    margin-left: 0px;
+  }
+  .intro {
+    margin-left: 8px;
+  }
+
+
+
+    /* ^^^^^^ Change these rules into 1: combine all 44% width and 90% width into 1 css rule; */
+}
+
+@media screen and (max-width: 1190px) {
+  h2 {
+    font-size: 80px;
+  }
+  .middle {
+    margin-top: 80px;
+  }
+  .project-title {
+    margin: 0;
+    text-decoration: none;   
+    max-width: 0px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: -4px;
+  }
+  .project-image {
+    width: 400px;
+    height: 275px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  h1 {
+    font-size: 130px;
+  }
+  .interactive-overflow {
+    padding-bottom: 40px;
+  }
+  .interactive {
+    margin-left: 100px;
+  }
+  .header {
+    bottom: 40%;
+  }
+  .intro {
+    bottom: 37%;
+  }
+  .experience, .education {
+    width: 175px;
+  }
+  .image-stream {
+    max-width: 90%;
+  }
+  .image-stream-900 {
+    max-width: 90%;
+  }
+  .image-test img {
+    width: 100%;
+  }
+  .image-app img {
+    width: 100%;
+  }
+  .more-projects {
+    width: 90%;
+  }
+  .footer {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 960px) {  
+  .project:hover .project-title {
+    border-bottom: 14px hidden;
+    max-width: 587px;
+    background-color: black;
+    color: white;
+    padding-right: 10px;
+  }
+
+  .project:hover .project-image {
+    opacity: 1;
+  }
+
+/* Below one is for case study pages */
+  .project-title:hover {
+    max-width: 380px;
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+  }
+
+}
+
+@media screen and (max-width: 960px) {  
+
+  .project {
+    width: 100%
+  }
+
+  .footer h2 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 100px;
+  }
+
+  h6 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .left, .right {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .quick-intro {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .paragraphs {
+    width: 500px;
+    float: left;
+    margin-top: 20px;
+  }
+
+  .contact-intro, .contact-options {
+    width: 100%;
+  }
+
+  .contact-intro {
+    margin-bottom: 0;
+  }
+
+  .contact-intro h3 {
+    max-width: 600px;
+  }
+
+  .contact-options {
+    margin-top: 50px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 100px;
+  }
+  .interactive-overflow {
+    padding-bottom: 50px;
+  }
+  .interactive {
+    margin-left: 80px;
+  }
+  .header {
+    bottom: 44%;
+  }
+  .intro {
+    bottom: 41%;
+  }
+  .project-details {
+    max-width: 90%;
+  }
+  .next-project {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  h1 {
+    font-size: 80px;
+  }
+  .interactive-overflow {
+    padding-bottom: 50px;
+  }
+  .interactive {
+    margin-left: 60px;
+  }
+  .intro {
+    width: 120px;
+    bottom: 37%;
+    line-height: 1.7;
+  }
+  .header {
+    bottom: 46%;
+  }
+  .project-details {
+    max-width: 90%;
+  }
+
+  .project-info {
+    width: 100%;
+  }
+  .project-description {
+    width:100%;
+    margin-top: 50px;
+  }
+  .client, .role, .when {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  .case-title h1 {
+    font-size: 72px;
+  }
+  .case-title {
+    text-align: left;
+  }
+
+  .black-text {
+    color: black;
+  }
+
+  .line1 {
+    padding-top: 150px;
+    margin-left: 5%;
+  }
+
+  .line2 {
+    margin-left: 5%;
+    padding-left: 0px;
+  }
+  .overflow {
+    margin-bottom: -10px;
+  }
+  .footer h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 70px;
+  }
+  .paragraphs {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  h2 {
+    font-size: 64px;
+  }
+  h6 {
+    font-size: 29px;
+    line-height: 40px;
+  }
+  .more-projects h2 {
+    font-size: 64px;
+  }
+  .footer h2 {
+    font-size: 24px;
+  }
+}
+
+/* Test on iPhone 6/7 */
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 50px;
+  }
+  .interactive-overflow {
+    padding-bottom: 60px;
+  }
+  .interactive {
+    margin-left: 50px;
+  }
+  .intro {
+    width: 120px;
+    bottom: 32%;
+    line-height: 1.7;
+    margin-left: 3px;
+  }
+  .header {
+    bottom: 44%;
+  }
+  .logo {
+    margin-top: 0px;
+  }
+  header .contact-nav {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  h6 {
+    font-size: 29px;
+    line-height: 40px;
+  }
+  .contact-intro h3 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .case-title h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 45px;
+  }
+  .interactive-overflow {
+    padding-bottom: 60px;
+  }
+  .interactive {
+    margin-left: 50px;
+  }
+  .intro {
+    width: 120px;
+    bottom: 28%;
+    line-height: 1.7;
+  }
+  .header {
+    bottom: 44%;
+  }
+  h6 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .contact-intro h3 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+
+
+
+
+/* ==== ANIMATIONS ==== */
+
+
+.header-animation-target {
+  -webkit-animation: header-animation 1000ms linear 700ms both;
+  animation: header-animation 1000ms linear 700ms both;
+}
+
+.header2-animation-target {
+  -webkit-animation: header-animation 1000ms linear 800ms both;
+  animation: header-animation 1000ms linear 800ms both;
+}
+
+/* SHOULD I ADD MOZ PREFIX TO THESE? */
+
+@-webkit-keyframes header-animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 150, 0, 1); opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 150, 0, 1); opacity: 0; }
+  3.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 109.099, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 109.099, 0, 1); }
+  6.31% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 79.95, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 79.95, 0, 1); }
+  12.51% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 42.626, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 42.626, 0, 1); }
+  18.82% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 22.27, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 22.27, 0, 1); }
+  25.03% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 11.633, 0, 1); opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 11.633, 0, 1); opacity: 1; }
+  37.54% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3.033, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3.033, 0, 1); }
+  50.05% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.747, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.747, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+@keyframes header-animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 150, 0, 1); opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 150, 0, 1); opacity: 0; }
+  3.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 109.099, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 109.099, 0, 1); }
+  6.31% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 79.95, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 79.95, 0, 1); }
+  12.51% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 42.626, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 42.626, 0, 1); }
+  18.82% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 22.27, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 22.27, 0, 1); }
+  25.03% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 11.633, 0, 1); opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 11.633, 0, 1); opacity: 1; }
+  37.54% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3.033, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3.033, 0, 1); }
+  50.05% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.747, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.747, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+
+
+
+
+
+
+.nav-animation-target {
+  -webkit-animation: nav-animation 1500ms linear 1200ms both;
+  animation: nav-animation 1500ms linear 1200ms both;
+}
+
+/* SHOULD I ADD MOZ PREFIX TO THESE? */
+
+@-webkit-keyframes nav-animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; }
+  3.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 9.717, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 9.717, 0, 1); }
+  6.31% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 16.152, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 16.152, 0, 1); }
+  12.51% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 23.591, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 23.591, 0, 1); }
+  18.82% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.1, 0, 1); opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.1, 0, 1); opacity: 1; }
+  25.03% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.685, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.685, 0, 1); }
+  37.54% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.742, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.742, 0, 1); }
+  50.05% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.952, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.952, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1); } 
+}
+
+@keyframes nav-animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; }
+  3.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 9.717, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 9.717, 0, 1); }
+  6.31% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 16.152, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 16.152, 0, 1); }
+  12.51% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 23.591, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 23.591, 0, 1); }
+  18.82% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.1, 0, 1); opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.1, 0, 1); opacity: 1 }
+  25.03% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.685, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.685, 0, 1); }
+  37.54% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.742, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.742, 0, 1); }
+  50.05% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.952, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 29.952, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1); } 
+}
+
+
+
+.scroll-animation-target {
+  -webkit-animation: scroll-animation 1500ms linear 1200ms both;
+  animation: scroll-animation 1500ms linear 1200ms both;
+}
+
+/* SHOULD I ADD MOZ PREFIX TO THESE? */
+
+@-webkit-keyframes scroll-animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1); opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1); opacity: 0; }
+  3.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20.283, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20.283, 0, 1); }
+  6.31% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 13.848, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 13.848, 0, 1); }
+  12.51% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 6.409, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 6.409, 0, 1); }
+  18.82% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 2.9, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 2.9, 0, 1); }
+  25.03% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.315, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.315, 0, 1); }
+  37.54% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.258, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.258, 0, 1); }
+  50.05% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.048, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.048, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+@keyframes scroll-animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1); opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 30, 0, 1); opacity: 0; }
+  3.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20.283, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20.283, 0, 1); }
+  6.31% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 13.848, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 13.848, 0, 1); }
+  12.51% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 6.409, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 6.409, 0, 1); }
+  18.82% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 2.9, 0, 1); opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 2.9, 0, 1); opacity: 1; }
+  25.03% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.315, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.315, 0, 1); }
+  37.54% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.258, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.258, 0, 1); }
+  50.05% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.048, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.048, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
