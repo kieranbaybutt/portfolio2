@@ -702,6 +702,9 @@ header .contact-nav {
   .image-app img {
     width: 100%;
   }
+  .image-no-shadow img {
+    width: 100%
+  }
   .more-projects {
     width: 90%;
   }
